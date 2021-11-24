@@ -21,6 +21,8 @@
 
     <TextView
         android:id="@+id/text_view_address"
+        android:clickable="true"
+        android:onClick="createMapIntent"
         android:layout_width="0dp"
         android:layout_height="30dp"
         android:layout_marginLeft="16dp"
@@ -94,9 +96,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image_view_candy_store"
         app:srcCompat="@android:drawable/ic_dialog_map" />
-    <text_view_address
-        android:clickable="true"
-        android:onClick="createMapIntent"
-        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
